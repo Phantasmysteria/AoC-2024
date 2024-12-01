@@ -2,4 +2,4 @@
 
 Another year, another Advent of Code coinciding with finals month. 
 
-<small>yayyyyyyyyyyyyyyy</small>
+<sub><sup>yayyyyyyyyyyyyyyy</sup></sub>
