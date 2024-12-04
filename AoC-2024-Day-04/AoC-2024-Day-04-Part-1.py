@@ -21,8 +21,6 @@ for row in range(len(inp_1)-3):
         app = "".join([ inp_2[row, col], inp_2[row+1, col], inp_2[row+2, col], inp_2[row+3, col] ])
         xmas.append( app )
 
-print(xmas)
-
 # Vertical
 for row in range(len(inp_1)):
     for col in range(len(inp_1[0])-3):
