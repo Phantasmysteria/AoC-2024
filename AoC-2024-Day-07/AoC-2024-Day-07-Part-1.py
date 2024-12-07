@@ -8,8 +8,7 @@ import numpy as np
 import re
 import math
 
-rawInput = AoCUtils.listLines(day="07", part="2")
-
+rawInput = AoCUtils.listLines(day="07", part="1")
 targets = [ int(item.split(': ')[0]) for item in rawInput ]
 eqns = [ item.split(': ')[1] for item in rawInput ]
 eqns = [ [int(x) for x in item.split(' ')] for item in eqns ]
