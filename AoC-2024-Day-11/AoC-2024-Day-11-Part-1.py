@@ -22,6 +22,8 @@ def mod_dict(d, k, v):
     if k not in d:
         d[k] = 0
     d[k] += v
+    if d[k] == 0:
+        d.pop(k)
 
 # Part 1: 25 iterations (yep that's the only change)
 for it in range(25):
