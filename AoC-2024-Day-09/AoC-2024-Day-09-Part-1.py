@@ -8,7 +8,7 @@ import numpy as np
 import re
 import math
 
-rawInput = AoCUtils.listLines(day="09", part="2")
+rawInput = AoCUtils.listLines(day="09", part="1")
 file_space, free_space = [ int(rawInput[0][i]) for i in range(len(rawInput[0])) if not i % 2 ], [ int(rawInput[0][i]) for i in range(len(rawInput[0])) if i % 2 ]
 
 front_ptr, back_ptr = 0, len(file_space)-1
