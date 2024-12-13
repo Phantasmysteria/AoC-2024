@@ -21,12 +21,12 @@ for i in range(inp_3.shape[0]):
     
     D = abs(x1*y2 - x2*y1)
 
-    ma = abs((y2*xt - x2*yt)) // D if abs((y2*xt - x2*yt)) % D == 0 else 0
-    if ma == 0:
+    ma = abs((y2*xt - x2*yt)) // D if abs((y2*xt - x2*yt)) % D == 0 else -1
+    if ma == -1:
         continue
 
-    mb = abs((x1*yt - y1*xt)) // D if abs((x1*yt - y1*xt)) % D == 0 else 0  
-    if mb == 0:
+    mb = abs((x1*yt - y1*xt)) // D if abs((x1*yt - y1*xt)) % D == 0 else -1 
+    if mb == -1:
         continue
 
     output += 3*ma + mb
